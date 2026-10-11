@@ -10,10 +10,22 @@ Surtr is a mod for Call of Duty: Black Ops 3 focused on playing BO3 **safely**. 
 
 Surtr is **injected** into Black Ops 3, so you don't need any modding knowledge. Everything you need comes in **one zip file**: a compiled Surtr file (`.gscc`) and two `.bat` files that do all the work for you — they even download the special compiler that injects the mod into the game.
 
+The quickest way to get it: download **[Download-Surtr.bat](https://github.com/Luisete2105/Bo3-Surtr/raw/main/Download-Surtr.bat)** and **double-click it** — it downloads and extracts the latest Surtr release for you. No browsing, no unzipping.
+
 ### 1. Download and extract
 
+**Easy way — let Download-Surtr.bat do it:**
+
+1. Download [Download-Surtr.bat](https://github.com/Luisete2105/Bo3-Surtr/raw/main/Download-Surtr.bat).
+2. Save it anywhere, then **double-click it**.
+3. It looks for the latest Surtr release, downloads it and extracts it right next to the `.bat` file. When it prints **"Done!"** the latest version is ready to use.
+
+> **Note:** Windows may show a SmartScreen warning or an antivirus pop-up the first time. The script is safe — click **More info** → **Run anyway** if that happens.
+
+**Manual way — grab the zip by hand:**
+
 1. Go to the [Releases](https://github.com/Luisete2105/bo3-surtr/releases) page of this repository.
-2. Download the latest release (for example `Surtr-0.1.0.zip`).
+2. Download the latest release (for example `Surtr_v0.1.0.zip`).
 3. Extract the `.zip`: right-click it, choose **"Extract All..."** and click **Extract**. Any folder is fine (the Desktop works).
 
 You should now see these files:
@@ -27,6 +39,9 @@ You should now see these files:
 | `Surtr versions` | Custom Surtr versions made by other players (optional). |
 | `Livesplit` | Surtr's LiveSplit autosplitter (optional). |
 | `Bo3 Offline Files` | Unlocks mega gums and the super EE reward on offline mode (optional). See [Offline unlocks](Docs/Offline_Unlocks.md). |
+
+> **What does `_getkey` mean?**
+> Precompiled Surtr versions ending in `_getkey` (like `surtr_0.1.0_getkey.gscc`) are built with a custom compiler function. Thanks to it, the **host** of the game can use the keyboard functionality without needing a Surtr cfg.
 
 > **Important:** Keep these files together in the same folder. The `.bat` files load everything from their own folder.
 
@@ -119,4 +134,4 @@ This mod includes:
 
 ## License
 
-This project is licensed under the GNU General Public License v3 - see the [License](License) file for details.
+This project is licensed under the GNU General Public License v3 - see the [License](LICENSE) file for details.
