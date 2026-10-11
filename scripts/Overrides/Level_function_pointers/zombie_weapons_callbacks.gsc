@@ -1,0 +1,1 @@
+// self thread [[level.zombie_weapons_callbacks[weapon]]](); // Self is player and weapon is a weapon object
