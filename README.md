@@ -10,13 +10,13 @@ Surtr is a mod for Call of Duty: Black Ops 3 focused on playing BO3 **safely**. 
 
 Surtr is **injected** into Black Ops 3, so you don't need any modding knowledge. Everything you need comes in **one zip file**: a compiled Surtr file (`.gscc`) and two `.bat` files that do all the work for you — they even download the special compiler that injects the mod into the game.
 
-The quickest way to get it: download **[Download-Surtr.bat](https://github.com/Luisete2105/Bo3-Surtr/raw/main/Download-Surtr.bat)** and **double-click it** — it downloads and extracts the latest Surtr release for you. No browsing, no unzipping.
+The quickest way to get it: download **[Download-Surtr.bat](https://github.com/Luisete2105/Bo3-Surtr/releases/latest/download/Download-Surtr.bat)** and **double-click it** — it downloads and extracts the latest Surtr release for you. No browsing, no unzipping.
 
 ### 1. Download and extract
 
 **Easy way — let Download-Surtr.bat do it:**
 
-1. Download [Download-Surtr.bat](https://github.com/Luisete2105/Bo3-Surtr/raw/main/Download-Surtr.bat).
+1. Download [Download-Surtr.bat](https://github.com/Luisete2105/Bo3-Surtr/releases/latest/download/Download-Surtr.bat).
 2. Save it anywhere, then **double-click it**.
 3. It looks for the latest Surtr release, downloads it and extracts it right next to the `.bat` file. When it prints **"Done!"** the latest version is ready to use.
 
