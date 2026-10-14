@@ -72,7 +72,7 @@ function tomb_wait_fire_craft(){
     while( !isdefined( level.zombie_craftablestubs ) ) wait 0.05;
     while( !isdefined( level.zombie_craftablestubs[ "elemental_staff_fire" ] ) ) wait 0.05;
 
-    level.zombie_craftablestubs[ "elemental_staff_fire" ].old_onfullycrafted = level.zombie_craftablestubs[ "elemental_staff_air" ].onfullycrafted;
+    level.zombie_craftablestubs[ "elemental_staff_fire" ].old_onfullycrafted = level.zombie_craftablestubs[ "elemental_staff_fire" ].onfullycrafted;
     level.zombie_craftablestubs[ "elemental_staff_fire" ].onfullycrafted = ::notify_staff_crafted;
 
 
@@ -84,7 +84,7 @@ function tomb_wait_electric_craft(){
     while( !isdefined( level.zombie_craftablestubs ) ) wait 0.05;
     while( !isdefined( level.zombie_craftablestubs[ "elemental_staff_lightning" ] ) ) wait 0.05;
 
-    level.zombie_craftablestubs[ "elemental_staff_lightning" ].old_onfullycrafted = level.zombie_craftablestubs[ "elemental_staff_air" ].onfullycrafted;
+    level.zombie_craftablestubs[ "elemental_staff_lightning" ].old_onfullycrafted = level.zombie_craftablestubs[ "elemental_staff_lightning" ].onfullycrafted;
     level.zombie_craftablestubs[ "elemental_staff_lightning" ].onfullycrafted = ::notify_staff_crafted;
 
 
@@ -96,7 +96,7 @@ function tomb_wait_ice_craft(){
     while( !isdefined( level.zombie_craftablestubs ) ) wait 0.05;
     while( !isdefined( level.zombie_craftablestubs[ "elemental_staff_water" ] ) ) wait 0.05;
 
-    level.zombie_craftablestubs[ "elemental_staff_water" ].old_onfullycrafted = level.zombie_craftablestubs[ "elemental_staff_air" ].onfullycrafted;
+    level.zombie_craftablestubs[ "elemental_staff_water" ].old_onfullycrafted = level.zombie_craftablestubs[ "elemental_staff_water" ].onfullycrafted;
     level.zombie_craftablestubs[ "elemental_staff_water" ].onfullycrafted = ::notify_staff_crafted;
 
 
