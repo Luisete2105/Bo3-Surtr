@@ -12,9 +12,9 @@
 
 // Watermark
 #ifndef dev
-    #define SURTR_VERSION = "0.1.0";
+    #define SURTR_VERSION = "0.1.1";
 #else
-    #define SURTR_VERSION = "-0.1.0"; // Invalid version, gameplay should not be valid for runs
+    #define SURTR_VERSION = "-0.1.1"; // Invalid version, gameplay should not be valid for runs
 #endif
 
 // Game version strings: [BuildInfoString] BuildConfig ?Platform? BuildMachine (Changelist LocalChanges?empty?) BuildTime
