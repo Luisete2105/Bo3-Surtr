@@ -164,6 +164,7 @@ function register_zm_huds(){
                 register_split( "Fire_Enter", array("FireEnter", "FEnter"),"Fire Enter: ^2", ORIGINS, EE_SPLIT, ::tomb_wait_fire_enter);
                 register_split( "Electric_Enter", array("ElectricEnter", "EEnter"),"Electric Enter: ^2", ORIGINS, EE_SPLIT, ::tomb_wait_electric_enter);
                 register_split( "Ice_Enter", array("IceEnter", "IEnter"),"Ice Enter: ^2", ORIGINS, EE_SPLIT, ::tomb_wait_ice_enter);
+        
 
             // Portal Exit
                 register_split( "Wind_Exit", array("WindExit", "WExit"),"Wind Exit: ^2", ORIGINS, EE_SPLIT, ::tomb_wait_air_exit);
@@ -173,6 +174,7 @@ function register_zm_huds(){
 
             // So made-up that it goes beyond any reasonable name
                 register_split( "Secure_The_Keys_Leave", array("SecureTheKeysLeave", "STKL"),"Secure The Keys Leave: ^2", ORIGINS, EE_SPLIT, ::tomb_wait_secure_the_keys_leave);
+                register_split( "Fire_Puzzle_1_Complete_Leave", array("FirePuzzle1CompleteLeave", "FP1CL"),"Fire Puzzle 1 Complete Leave: ^2", ORIGINS, EE_SPLIT, ::tomb_wait_fire_puzzle_1_complete_leave);
                 register_split( "Wield_A_Fist_Of_Iron_Enter", array("WieldAFistOfIronEnter", "WAFOIE"),"Wield A Fist Of Iron Enter: ^2", ORIGINS, EE_SPLIT, ::tomb_wait_wield_a_fist_of_iron_enter);
 
         // Dev

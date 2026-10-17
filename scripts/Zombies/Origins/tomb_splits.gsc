@@ -249,6 +249,15 @@ function tomb_wait_secure_the_keys_leave(){
     level waittill( "player_portal_exit" );
 }
 
+function tomb_wait_fire_puzzle_1_complete_leave(){
+
+    // Fire Staff Upgrade Step 1
+    level waittill( "fire_puzzle_1_complete" );
+
+    // Leave
+    level waittill( "player_portal_exit" );
+}
+
 function tomb_wait_wield_a_fist_of_iron_enter(){
 
     // Wield A Fist Of Iron

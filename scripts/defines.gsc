@@ -8,13 +8,11 @@
 #define __XUID__ = self [[ level.__PROTECTED__getdstat ]](STR_XUID);
 */
 
-#define dev = true;
-
 // Watermark
 #ifndef dev
-    #define SURTR_VERSION = "0.1.1";
+    #define SURTR_VERSION = "0.1.2";
 #else
-    #define SURTR_VERSION = "-0.1.1"; // Invalid version, gameplay should not be valid for runs
+    #define SURTR_VERSION = "-0.1.2"; // Invalid version, gameplay should not be valid for runs
 #endif
 
 // Game version strings: [BuildInfoString] BuildConfig ?Platform? BuildMachine (Changelist LocalChanges?empty?) BuildTime

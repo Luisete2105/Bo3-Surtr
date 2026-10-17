@@ -81,10 +81,6 @@ function load_new_session_mode_cfg(){
 
     // Flags for weapon's attachments config
     FLAG_SAVED_WEAPON_SETTINGS = 0;
-    if( IS_ZOMBIES && ( IS_OFFLINE || USING_MODS ) ){
-        enable_weapon_flag_bit( FLAG_AUTOMATIC_ATTACHMENTS ); // By default, we DO give attachments to weapons when offline
-        enable_weapon_flag_bit( FLAG_GIVE_CAMO ); // By default, we DO give random camo to weapons when offline
-    }
 
     // Let's assume player is going to play always on Offline sessionmode, let's make the game more secure
     if( IS_OFFLINE ){
